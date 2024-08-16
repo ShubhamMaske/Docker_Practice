@@ -1,0 +1,14 @@
+{
+  "name": "dockerpractice",
+  "version": "1.0.0",
+  "description": "docker learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Shubham Maske",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
