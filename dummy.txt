@@ -1,1 +1,13 @@
-nfdgdsj
+to use docker volume following process we can follow
+
+--> first we need to build the image 
+
+--> then to use volume we have to specify -p option along with our project path and : destination while starting the container
+--> cmd is given below
+
+--> docker run --name my-container -p 4000:4000 --rm -v /home/shubham/Desktop/BackendPractice/DockerPractice:/app basic-app
+
+
+
+The --rm option in the Docker run command specifies that the container should be automatically removed when it stops. 
+This option is useful for containers that are meant to run a specific task and then exit, such as temporary or one-off jobs.
